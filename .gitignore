@@ -1,0 +1,7 @@
+# Files not included in the repo
+/.vscode/
+/.vscode/**
+
+# Source code files (We don't want the source to leak out)
+/main.cpp
+/Makefile
