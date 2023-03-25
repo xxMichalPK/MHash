@@ -1,0 +1,14 @@
+#pragma once
+
+#include <string>
+
+class MHash {
+    public:
+        MHash();
+        ~MHash();
+        std::string operator ()(const std::string &text);
+    
+    private:
+        std::string key;
+        void GenerateKey();
+};

@@ -3,5 +3,8 @@
 /.vscode/**
 
 # Source code files (We don't want the source to leak out)
-/main.cpp
+/src/
+/src/**
+/opt/
+/opt/**
 /Makefile
